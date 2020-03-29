@@ -9,7 +9,7 @@ class App extends React.Component {
   // }
 
   render() {
-    return (
+      const appRoot = (
       <div className="App">
         <header className="App-header">
           <div className="Box1">
@@ -43,7 +43,9 @@ class App extends React.Component {
           </div>
         </header>
       </div>
+      
     );
+    return appRoot;
   }
 }
 
