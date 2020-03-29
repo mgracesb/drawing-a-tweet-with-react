@@ -1,38 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #ebebeb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.App-header {
+  background-color: white;
+  border: 1px solid rgb(179, 179, 179);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  padding: 40px;
+}
+
+.Box1 {
+  display: flex;
+  align-items: top;
+}
+
+.Box2 {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Profile-name {
+  font-size: calc(15px + 2vmin);
+  color: rgb(105, 105, 105);
+  margin: 0;
+  margin-top: 25px;
+}
+
+.Date {
+  font-size: calc(15px + 1vmin);
+  font-weight: 500;
+  color: gray;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.Profile-photo {
+  height: 100px;
+  width: 100px;
+  margin-top: 15px;
+  margin-right: 20px;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.Text {
+  text-align: left;
+  font-size: calc(15px + 2vmin);
+  color: rgb(105, 105, 105);
+}
+
+.Box3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.readMore {
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(161, 161, 161);
 }
 
-.App-link {
-  color: #61dafb;
+.Box4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Count {
+  color: rgb(61, 61, 61);
+  font-size: calc(10px + 2vmin);
+  margin-right: 15px;
+}
+
+.Heart {
+  height: 40px;
+  width: 40px;
 }
