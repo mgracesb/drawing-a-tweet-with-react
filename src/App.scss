@@ -1,0 +1,93 @@
+@import "scss/vars";
+
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+  
+
+  .App {
+    background-color: $bg;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+
+    .App-header {
+      background-color: $bgCard;
+      border: 1px solid $borderLine;
+      box-shadow: 0 5px 10px 0 $boxShadow;
+      padding: 40px;
+
+      .Box1 {
+        display: flex;
+        align-items: top;
+
+        .Profile-photo {
+          max-height: 100px;
+          max-width: 100px;
+          margin-top: 15px;
+          margin-right: 20px;
+          border-radius: 50% 50% 50% 50%;
+        }
+        .Box2 {
+          margin-left: 15px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+
+          .Profile-name {
+            font-size: calc(15px + 2vmin);
+            color: rgb(105, 105, 105);
+            margin: 0;
+            margin-top: 25px;
+          }
+
+          .Date {
+            font-size: calc(15px + 1vmin);
+            font-weight: 500;
+            color: gray;
+            margin: 0;
+            margin-top: 10px;
+          }
+        }
+      }
+      .Text {
+        text-align: left;
+        font-size: calc(15px + 2vmin);
+        color: rgb(105, 105, 105);
+      }
+
+      .Box3 {
+        display: flex;
+        justify-content: space-between;
+
+        .readMore {
+          font-size: calc(15px + 1.5vmin);
+          border: none;
+          color: rgb(161, 161, 161);
+        }
+
+        .Box4 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .Count {
+            color: rgb(61, 61, 61);
+            font-size: calc(15px + 1.5vmin);
+            margin-right: 15px;
+          }
+
+          .Heart {
+            height: 40px;
+            width: 40px;
+          }
+        }
+      }
+    }
+  }
+

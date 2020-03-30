@@ -1,7 +1,7 @@
 import React from "react";
-import heart from "./heart.svg";
-import profileImage from "./girl.jpg";
-import "./App.css";
+import heart from "./img/heart.svg";
+import profileImage from "./img/girl.jpg";
+import "./App.scss";
 
 class App extends React.Component {
   // constructor(props) {
